@@ -10,6 +10,7 @@
     },
     "hero": {
       "title": "Guia da Culinária Coreana",
+      "side": "teste",
       "subtitle": "Uma jornada através dos sabores, tradições e cultura da Coreia através de sua rica gastronomia",
       "cta": "Explorar Receitas"
     },
