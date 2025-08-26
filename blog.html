@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Korean Food Blog - K-food Guide</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&family=Noto+Serif:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <h1>K-food Guide</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="culture.html" class="nav-link">Culture</a></li>
+                <li><a href="menu.html" class="nav-link">Menu</a></li>
+                <li><a href="drinks.html" class="nav-link">Drinks</a></li>
+                <li><a href="blog.html" class="nav-link active">Blog</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+            </ul>
+            <div class="language-selector">
+                <select id="languageSelect">
+                    <option value="pt">PT</option>
+                    <option value="en">EN</option>
+                    <option value="ko">한국어</option>
+                </select>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="blog-hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title" data-key="blog.hero.title">Blog de Receitas Coreanas</h1>
+                <p class="hero-subtitle" data-key="blog.hero.subtitle">Receitas rápidas, fáceis e modernas para trazer a Coreia para sua cozinha</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recipe Categories -->
+    <section class="recipe-categories">
+        <div class="container">
+            <div class="categories-tabs">
+                <button class="category-tab active" data-category="all">Todas</button>
+                <button class="category-tab" data-category="quick">Rápidas</button>
+                <button class="category-tab" data-category="easy">Fáceis</button>
+                <button class="category-tab" data-category="modern">Modernas</button>
+                <button class="category-tab" data-category="airfryer">Air Fryer</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Recipes -->
+    <section class="featured-recipes">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-key="blog.featured.title">Receitas em Destaque</h2>
+                <p data-key="blog.featured.subtitle">Nossas receitas mais populares e amadas</p>
+            </div>
+            <div class="recipes-grid">
+                <div class="recipe-card" data-category="quick easy" data-recipe="kimchi-pancake">
+                    <div class="recipe-image">
+                        <img src="/placeholder.svg?height=250&width=350" alt="Kimchi Pancake">
+                        <div class="recipe-overlay">
+                            <button class="view-recipe-btn" data-recipe="kimchi-pancake">Ver Receita</button>
+                        </div>
+                    </div>
+                    <div class="recipe-info">
+                        <div class="recipe-tags">
+                            <span class="tag quick">Rápida</span>
+                            <span class="tag easy">Fácil</span>
+                        </div>
+                        <h3>Kimchi Pancake (김치전)</h3>
+                        <p>Panqueca crocante de kimchi, perfeita para um lanche rápido ou acompanhamento.</p>
+                        <div class="recipe-meta">
+                            <span class="time">⏱️ 15 min</span>
+                            <span class="difficulty">🟢 Fácil</span>
+                            <span class="servings">👥 2-3 porções</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="recipe-card" data-category="modern airfryer" data-recipe="korean-hotdog">
+                    <div class="recipe-image">
+                        <img src="/placeholder.svg?height=250&width=350" alt="Korean Hot Dog">
+                        <div class="recipe-overlay">
+                            <button class="view-recipe-btn" data-recipe="korean-hotdog">Ver Receita</button>
+                        </div>
+                    </div>
+                    <div class="recipe-info">
+                        <div class="recipe-tags">
+                            <span class="tag modern">Moderna</span>
+                            <span class="tag airfryer">Air Fryer</span>
+                        </div>
+                        <h3>Korean Hot Dog (코리안 핫도그)</h3>
+                        <p>Hot dog coreano crocante feito na air fryer, com batata ralada e molho especial.</p>
+                        <div class="recipe-meta">
+                            <span class="time">⏱️ 25 min</span>
+                            <span class="difficulty">🟡 Médio</span>
+                            <span class="servings">👥 4 porções</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="recipe-card" data-category="quick easy" data-recipe="bibimbap-bowl">
+                    <div class="recipe-image">
+                        <img src="/placeholder.svg?height=250&width=350" alt="Quick Bibimbap Bowl">
+                        <div class="recipe-overlay">
+                            <button class="view-recipe-btn" data-recipe="bibimbap-bowl">Ver Receita</button>
+                        </div>
+                    </div>
+                    <div class="recipe-info">
+                        <div class="recipe-tags">
+                            <span class="tag quick">Rápida</span>
+                            <span class="tag easy">Fácil</span>
+                        </div>
+                        <h3>Bibimbap Rápido (빠른 비빔밥)</h3>
+                        <p>Versão simplificada do bibimbap tradicional, perfeita para uma refeição rápida e nutritiva.</p>
+                        <div class="recipe-meta">
+                            <span class="time">⏱️ 20 min</span>
+                            <span class="difficulty">🟢 Fácil</span>
+                            <span class="servings">👥 1-2 porções</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="recipe-card" data-category="modern airfryer" data-recipe="korean-fried-chicken">
+                    <div class="recipe-image">
+                        <img src="/placeholder.svg?height=250&width=350" alt="Korean Fried Chicken">
+                        <div class="recipe-overlay">
+                            <button class="view-recipe-btn" data-recipe="korean-fried-chicken">Ver Receita</button>
+                        </div>
+                    </div>
+                    <div class="recipe-info">
+                        <div class="recipe-tags">
+                            <span class="tag modern">Moderna</span>
+                            <span class="tag airfryer">Air Fryer</span>
+                        </div>
+                        <h3>Frango Frito Coreano (양념치킨)</h3>
+                        <p>Frango crocante e saboroso feito na air fryer, com molho doce e picante tradicional.</p>
+                        <div class="recipe-meta">
+                            <span class="time">⏱️ 35 min</span>
+                            <span class="difficulty">🟡 Médio</span>
+                            <span class="servings">👥 4 porções</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="recipe-card" data-category="quick easy" data-recipe="kimchi-fried-rice">
+                    <div class="recipe-image">
+                        <img src="/placeholder.svg?height=250&width=350" alt="Kimchi Fried Rice">
+                        <div class="recipe-overlay">
+                            <button class="view-recipe-btn" data-recipe="kimchi-fried-rice">Ver Receita</button>
+                        </div>
+                    </div>
+                    <div class="recipe-info">
+                        <div class="recipe-tags">
+                            <span class="tag quick">Rápida</span>
+                            <span class="tag easy">Fácil</span>
+                        </div>
+                        <h3>Arroz Frito com Kimchi (김치볶음밥)</h3>
+                        <p>Arroz frito picante e saboroso com kimchi, ovo e vegetais. Prato perfeito para sobras.</p>
+                        <div class="recipe-meta">
+                            <span class="time">⏱️ 15 min</span>
+                            <span class="difficulty">🟢 Fácil</span>
+                            <span class="recipes">👥 2 porções</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="recipe-card" data-category="modern" data-recipe="korean-bbq-bowl">
+                    <div class="recipe-image">
+                        <img src="/placeholder.svg?height=250&width=350" alt="Korean BBQ Bowl">
+                        <div class="recipe-overlay">
+                            <button class="view-recipe-btn" data-recipe="korean-bbq-bowl">Ver Receita</button>
+                        </div>
+                    </div>
+                    <div class="recipe-info">
+                        <div class="recipe-tags">
+                            <span class="tag modern">Moderna</span>
+                        </div>
+                        <h3>Korean BBQ Bowl (불고기 보울)</h3>
+                        <p>Bowl moderno inspirado no bulgogi tradicional, com arroz, vegetais e carne marinada.</p>
+                        <div class="recipe-meta">
+                            <span class="time">⏱️ 30 min</span>
+                            <span class="difficulty">🟡 Médio</span>
+                            <span class="servings">👥 2 porções</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recipe Modal -->
+    <div id="recipeModal" class="recipe-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle">Receita</h2>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div id="modalContent">
+                    <!-- Content will be loaded dynamically -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2 data-key="blog.newsletter.title">Receba Novas Receitas</h2>
+                <p data-key="blog.newsletter.subtitle">Inscreva-se para receber as melhores receitas coreanas diretamente no seu email</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Seu email" required>
+                    <button type="submit" data-key="blog.newsletter.submit">Inscrever-se</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>K-food Guide</h3>
+                    <p data-key="footer.description">Sua jornada pela autêntica culinária coreana</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4 data-key="footer.explore">Explorar</h4>
+                        <ul>
+                            <li><a href="culture.html" data-key="nav.culture">Cultura</a></li>
+                            <li><a href="menu.html" data-key="nav.menu">Menu</a></li>
+                            <li><a href="drinks.html" data-key="nav.drinks">Bebidas</a></li>
+                            <li><a href="blog.html" data-key="nav.blog">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4 data-key="footer.categories">Categorias</h4>
+                        <ul>
+                            <li><a href="#" data-key="categories.soups">Sopas</a></li>
+                            <li><a href="#" data-key="categories.banchan">Banchan</a></li>
+                            <li><a href="#" data-key="categories.grilled">Grelhados</a></li>
+                            <li><a href="#" data-key="categories.fermented">Fermentados</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 K-food Guide. <span data-key="footer.rights">Todos os direitos reservados.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/language.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/modal.js"></script>
+</body>
+</html>

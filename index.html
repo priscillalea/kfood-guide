@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-food Guide - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&family=Noto+Serif:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&family=Noto+Serif:wght@400;500;600&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <h1>K-food Guide</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="culture.html" class="nav-link">Culture</a></li>
+                <li><a href="menu.html" class="nav-link">Menu</a></li>
+                <li><a href="drinks.html" class="nav-link">Drinks</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+            </ul>
+            <div class="language-selector">
+                <select id="languageSelect">
+                    <option value="pt">PT</option>
+                    <option value="en">EN</option>
+                    <option value="ko">한국어</option>
+                </select>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+          <div class="hero-grid">
+            <!-- Coluna esquerda: título, subtítulo e botão -->
+            <div class="hero-copy">
+              <h1 class="hero-title" data-key="hero.title">K-food Guide</h1>
+              <p class="hero-subtitle" data-key="hero.subtitle">
+                Uma das melhores maneiras de se imergir em uma cultura é através de sua comida. A culinária coreana oferece um equilíbrio perfeito de sabores, cores e texturas que irão aguçar suas papilas gustativas e nutrir sua alma.
+              </p>
+              <a href="menu.html" class="btn btn-primary" data-key="hero.cta">Explorar Menu</a>
+            </div>
+      
+            <!-- Coluna direita: frase curta de apoio (também traduzível) -->
+            <p class="hero-side" data-key="hero.side">
+              A journey through Korea’s flavors, traditions and culture through its rich gastronomy
+            </p>
+          </div>
+        </div>
+      </section>
+
+    <!-- Food is Medicine Section -->
+    <section class="medicine-section">
+        <div class="container">
+            <div class="medicine-content">
+                <div class="medicine-image">
+                    <img src="/placeholder.svg?height=400&width=500" alt="Korean bibimbap bowl" class="medicine-img">
+                </div>
+                <div class="medicine-text">
+                    <h2 class="medicine-title" data-key="medicine.title">Na Coreia, comida é remédio</h2>
+                    <p class="medicine-description" data-key="medicine.description">
+                        A comida tem sido usada tradicionalmente como remédio na Coreia há séculos. A culinária coreana enfatiza o equilíbrio e a harmonia, incorporando ingredientes que promovem a saúde e o bem-estar. Desde alimentos fermentados como o kimchi que ajudam na digestão até pratos com ginseng que aumentam a energia, cada refeição é projetada para nutrir tanto o corpo quanto a alma.
+                    </p>
+                    <p class="medicine-description">
+                        A filosofia coreana da comida como remédio vai além dos ingredientes individuais para toda a experiência gastronômica, enfatizando a alimentação consciente e o compartilhamento de refeições com outros.
+                    </p>
+                    <a href="culture.html" class="btn btn-outline" data-key="medicine.cta">Saiba Mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Browse Menu Section -->
+    <section class="browse-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-key="browse.title">Navegue no Menu</h2>
+                <p data-key="browse.subtitle">Descubra a diversidade da culinária coreana</p>
+            </div>
+            <div class="category-grid">
+                <div class="category-card" data-category="soups">
+                    <div class="category-icon">🍲</div>
+                    <h3 data-key="categories.soups">Sopas e Ensopados</h3>
+                    <p data-key="categories.soups.desc">Sopas quentes e reconfortantes coreanas perfeitas para qualquer estação</p>
+                    <a href="menu.html#soups" class="category-link">Ver Pratos</a>
+                </div>
+
+                <div class="category-card" data-category="banchan">
+                    <div class="category-icon">🥢</div>
+                    <h3 data-key="categories.banchan">Banchan</h3>
+                    <p data-key="categories.banchan.desc">Pratos acompanhantes tradicionais que complementam qualquer refeição</p>
+                    <a href="menu.html#banchan" class="category-link">Ver Pratos</a>
+                </div>
+
+                <div class="category-card" data-category="grilled">
+                    <div class="category-icon">🔥</div>
+                    <h3 data-key="categories.grilled">Grelhados</h3>
+                    <p data-key="categories.grilled.desc">Carnes e vegetais grelhados com técnicas tradicionais coreanas</p>
+                    <a href="menu.html#grilled" class="category-link">Ver Pratos</a>
+                </div>
+
+                <div class="category-card" data-category="fermented">
+                    <div class="category-icon">🥬</div>
+                    <h3 data-key="categories.fermented">Fermentados</h3>
+                    <p data-key="categories.fermented.desc">Alimentos fermentados ricos em probióticos e sabores únicos</p>
+                    <a href="menu.html#fermented" class="category-link">Ver Pratos</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Recipes Section -->
+    <section class="recipes-section">
+        <div class="container">
+            <div class="recipes-header">
+                <h2 data-key="recipes.title">Receitas em Destaque</h2>
+                <p data-key="recipes.subtitle">Nossas receitas mais populares e amadas</p>
+                <a href="blog.html" class="view-all-btn" data-key="recipes.viewAll">Ver Todas</a>
+            </div>
+            <div class="recipes-grid">
+                <div class="recipe-card">
+                    <div class="recipe-image">
+                        <img src="/placeholder.svg?height=250&width=350" alt="Kimchi Jjigae">
+                    </div>
+                    <div class="recipe-content">
+                        <h3 class="recipe-title">Kimchi Jjigae</h3>
+                        <p class="recipe-description">Ensopado picante de kimchi com tofu e carne de porco</p>
+                        <div class="recipe-meta">
+                            <span class="time">⏱️ 25 min</span>
+                            <span class="difficulty">🟡 Médio</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="recipe-card">
+                    <div class="recipe-image">
+                        <img src="/placeholder.svg?height=250&width=350" alt="Bibimbap">
+                    </div>
+                    <div class="recipe-content">
+                        <h3 class="recipe-title">Bibimbap</h3>
+                        <p class="recipe-description">Tigela de arroz com vegetais variados e ovo</p>
+                        <div class="recipe-meta">
+                            <span class="time">⏱️ 35 min</span>
+                            <span class="difficulty">🟢 Fácil</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="recipe-card">
+                    <div class="recipe-image">
+                        <img src="/placeholder.svg?height=250&width=350" alt="Bulgogi">
+                    </div>
+                    <div class="recipe-content">
+                        <h3 class="recipe-title">Bulgogi</h3>
+                        <p class="recipe-description">Carne bovina marinada grelhada, doce e saborosa</p>
+                        <div class="recipe-meta">
+                            <span class="time">⏱️ 45 min</span>
+                            <span class="difficulty">🟡 Médio</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>K-food Guide</h3>
+                    <p data-key="footer.description">Sua jornada pela autêntica culinária coreana</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4 data-key="footer.explore">Explorar</h4>
+                        <ul>
+                            <li><a href="culture.html" data-key="nav.culture">Cultura</a></li>
+                            <li><a href="menu.html" data-key="nav.menu">Menu</a></li>
+                            <li><a href="drinks.html" data-key="nav.drinks">Bebidas</a></li>
+                            <li><a href="blog.html" data-key="nav.blog">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4 data-key="footer.categories">Categorias</h4>
+                        <ul>
+                            <li><a href="menu.html#soups" data-key="categories.soups">Sopas</a></li>
+                            <li><a href="menu.html#banchan" data-key="categories.banchan">Banchan</a></li>
+                            <li><a href="menu.html#grilled" data-key="categories.grilled">Grelhados</a></li>
+                            <li><a href="menu.html#fermented" data-key="categories.fermented">Fermentados</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 K-food Guide. <span data-key="footer.rights">Todos os direitos reservados.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/language.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

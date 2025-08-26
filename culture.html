@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Korean Food Culture - K-food Guide</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&family=Noto+Serif:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <h1>K-food Guide</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="culture.html" class="nav-link active">Culture</a></li>
+                <li><a href="menu.html" class="nav-link">Menu</a></li>
+                <li><a href="drinks.html" class="nav-link">Drinks</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+            </ul>
+            <div class="language-selector">
+                <select id="languageSelect">
+                    <option value="pt">PT</option>
+                    <option value="en">EN</option>
+                    <option value="ko">한국어</option>
+                </select>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="culture-hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title" data-key="culture.hero.title">A Cultura da Culinária Coreana</h1>
+                <p class="hero-subtitle" data-key="culture.hero.subtitle">Descubra a filosofia, tradições e significados profundos por trás de cada prato coreano</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Food as Medicine Section -->
+    <section class="medicine-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-key="culture.medicine.title">음식은 약이다 (Food is Medicine)</h2>
+                <p data-key="culture.medicine.subtitle">A filosofia coreana de alimentação como medicina preventiva</p>
+            </div>
+            <div class="medicine-content">
+                <div class="medicine-text">
+                    <p data-key="culture.medicine.description">Na Coreia, acredita-se que "음식은 약이다" (eumsik-eun yak-ida) - "comida é remédio". Esta filosofia milenar baseia-se nos princípios da medicina oriental e na crença de que cada ingrediente tem propriedades curativas específicas.</p>
+                    <div class="medicine-principles">
+                        <div class="principle-item">
+                            <h3>Equilíbrio dos Cinco Elementos (오행)</h3>
+                            <p>Madeira (목), Fogo (화), Terra (토), Metal (금), Água (수) são representados através das cores dos alimentos.</p>
+                        </div>
+                        <div class="principle-item">
+                            <h3>Yin e Yang (음양)</h3>
+                            <p>Alimentos quentes (yang) e frios (yin) são combinados para manter o equilíbrio corporal.</p>
+                        </div>
+                        <div class="principle-item">
+                            <h3>Medicina Preventiva</h3>
+                            <p>Alimentos específicos são consumidos em diferentes estações para fortalecer o sistema imunológico.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="medicine-image">
+                    <img src="/placeholder.svg?height=400&width=500" alt="Korean Medicine Food Philosophy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Color Philosophy Section -->
+    <section class="color-philosophy">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-key="culture.colors.title">A Filosofia das Cores na Culinária Coreana</h2>
+                <p data-key="culture.colors.subtitle">Cada cor tem um significado especial e propriedades nutricionais</p>
+            </div>
+            <div class="color-grid">
+                <div class="color-item" data-color="green">
+                    <div class="color-circle green"></div>
+                    <h3>Verde (청색)</h3>
+                    <p>Representa madeira e primavera. Alimentos: vegetais verdes, chá verde, kimchi fresco.</p>
+                    <span class="element">Elemento: 목 (Madeira)</span>
+                </div>
+                <div class="color-item" data-color="red">
+                    <div class="color-circle red"></div>
+                    <h3>Vermelho (적색)</h3>
+                    <p>Representa fogo e verão. Alimentos: gochujang, pimentas, carne vermelha.</p>
+                    <span class="element">Elemento: 화 (Fogo)</span>
+                </div>
+                <div class="color-item" data-color="yellow">
+                    <div class="color-circle yellow"></div>
+                    <h3>Amarelo (황색)</h3>
+                    <p>Representa terra e transição. Alimentos: gema de ovo, milho, abóbora.</p>
+                    <span class="element">Elemento: 토 (Terra)</span>
+                </div>
+                <div class="color-item" data-color="white">
+                    <div class="color-circle white"></div>
+                    <h3>Branco (백색)</h3>
+                    <p>Representa metal e outono. Alimentos: arroz, tofu, rabanete.</p>
+                    <span class="element">Elemento: 금 (Metal)</span>
+                </div>
+                <div class="color-item" data-color="black">
+                    <div class="color-circle black"></div>
+                    <h3>Preto (흑색)</h3>
+                    <p>Representa água e inverno. Alimentos: algas, feijão preto, gergelim.</p>
+                    <span class="element">Elemento: 수 (Água)</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Regional Differences Section -->
+    <section class="regional-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-key="culture.regional.title">Diferenças Regionais na Culinária Coreana</h2>
+                <p data-key="culture.regional.subtitle">Cada província tem suas especialidades e tradições culinárias únicas</p>
+            </div>
+            <div class="region-grid">
+                <div class="region-card">
+                    <div class="region-header">
+                        <h3>Gyeonggi-do (경기도)</h3>
+                        <span class="region-subtitle">Região Central</span>
+                    </div>
+                    <div class="region-content">
+                        <p>Conhecida por pratos sofisticados da corte real, como galbi, bulgogi e bibimbap. Influenciada pela culinária da corte Joseon.</p>
+                        <div class="region-specialties">
+                            <span class="specialty">Galbi</span>
+                            <span class="specialty">Bibimbap</span>
+                            <span class="specialty">Bulgogi</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="region-card">
+                    <div class="region-header">
+                        <h3>Jeolla-do (전라도)</h3>
+                        <span class="region-subtitle">Região Sul</span>
+                    </div>
+                    <div class="region-content">
+                        <p>Considerada o coração da culinária coreana tradicional. Rica em frutos do mar, arroz e vegetais frescos.</p>
+                        <div class="region-specialties">
+                            <span class="specialty">Jeonju Bibimbap</span>
+                            <span class="specialty">Kongnamul Guk</span>
+                            <span class="specialty">Jeon</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="region-card">
+                    <div class="region-header">
+                        <h3>Gyeongsang-do (경상도)</h3>
+                        <span class="region-subtitle">Região Sudeste</span>
+                    </div>
+                    <div class="region-content">
+                        <p>Famosa por pratos picantes e saborosos. Influenciada pela proximidade com o mar e montanhas.</p>
+                        <div class="region-specialties">
+                            <span class="specialty">Dwaeji Gukbap</span>
+                            <span class="specialty">Milmyeon</span>
+                            <span class="specialty">Sundae</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="region-card">
+                    <div class="region-header">
+                        <h3>Gangwon-do (강원도)</h3>
+                        <span class="region-subtitle">Região Montanhosa</span>
+                    </div>
+                    <div class="region-content">
+                        <p>Especializada em pratos de montanha e caça. Conhecida por ingredientes selvagens e naturais.</p>
+                        <div class="region-specialties">
+                            <span class="specialty">Sanchae Bibimbap</span>
+                            <span class="specialty">Dakgalbi</span>
+                            <span class="specialty">Makguksu</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Utensils and Materials Section -->
+    <section class="utensils-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-key="culture.utensils.title">Utensílios e Materiais Tradicionais</h2>
+                <p data-key="culture.utensils.subtitle">A escolha dos materiais afeta o sabor e a experiência da refeição</p>
+            </div>
+            <div class="utensils-grid">
+                <div class="utensil-item">
+                    <div class="utensil-icon">🥢</div>
+                    <h3>Palitos (젓가락)</h3>
+                    <div class="material-options">
+                        <div class="material-option">
+                            <h4>Metal (금속)</h4>
+                            <p>Palitos de aço inoxidável - duradouros, fáceis de limpar, tradicionais na Coreia.</p>
+                        </div>
+                        <div class="material-option">
+                            <h4>Bambu (대나무)</h4>
+                            <p>Palitos de bambu - leves, naturais, mas podem absorver sabores.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="utensil-item">
+                    <div class="utensil-icon">🍚</div>
+                    <h3>Tigelas (그릇)</h3>
+                    <div class="material-options">
+                        <div class="material-option">
+                            <h4>Ferro Fundido (주철)</h4>
+                            <p>Mantém o calor por mais tempo, ideal para sopas e ensopados.</p>
+                        </div>
+                        <div class="material-option">
+                            <h4>Cerâmica (도자기)</h4>
+                            <p>Bonitas e tradicionais, mas podem quebrar facilmente.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="utensil-item">
+                    <div class="utensil-icon">🍲</div>
+                    <h3>Panelas (냄비)</h3>
+                    <div class="material-options">
+                        <div class="material-option">
+                            <h4>Dolsot (돌솥)</h4>
+                            <p>Panela de pedra que mantém o calor e cria crosta crocante no arroz.</p>
+                        </div>
+                        <div class="material-option">
+                            <h4>Yongnyu (용뉴)</h4>
+                            <p>Panela de ferro fundido tradicional para cozinhar arroz.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Culinary Influences Section -->
+    <section class="influences-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-key="culture.influences.title">Influências Culinárias na Coreia</h2>
+                <p data-key="culture.influences.subtitle">Como diferentes filosofias e culturas moldaram a culinária coreana</p>
+            </div>
+            <div class="influences-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">57 BC - 935 AD</div>
+                    <div class="timeline-content">
+                        <h3>Período Silla</h3>
+                        <p>Influência budista introduz vegetarianismo e pratos de templo. Desenvolvimento de técnicas de fermentação.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">918 - 1392</div>
+                    <div class="timeline-content">
+                        <h3>Dinastia Goryeo</h3>
+                        <p>Influência confucionista fortalece a importância dos rituais alimentares e hierarquia nas refeições.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">1392 - 1910</div>
+                    <div class="timeline-content">
+                        <h3>Dinastia Joseon</h3>
+                        <p>Desenvolvimento da culinária real sofisticada. Introdução de novos ingredientes e técnicas.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">1910 - Presente</div>
+                    <div class="timeline-content">
+                        <h3>Período Moderno</h3>
+                        <p>Influências ocidentais e globalização, mas preservação das tradições coreanas fundamentais.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Etiquette Rules Section -->
+    <section class="etiquette-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-key="culture.etiquette.title">Regras de Etiqueta na Mesa Coreana</h2>
+                <p data-key="culture.etiquette.subtitle">Respeite as tradições e mostre apreciação pela cultura coreana</p>
+            </div>
+            <div class="etiquette-grid">
+                <div class="etiquette-item">
+                    <div class="etiquette-icon">🙏</div>
+                    <h3>Antes da Refeição</h3>
+                    <ul>
+                        <li>Espere todos se sentarem antes de começar</li>
+                        <li>Diga "잘 먹겠습니다" (jal meokkesseumnida) - "Vou comer bem"</li>
+                        <li>Use ambas as mãos para receber ou passar pratos</li>
+                    </ul>
+                </div>
+                <div class="etiquette-item">
+                    <div class="etiquette-icon">🥢</div>
+                    <h3>Durante a Refeição</h3>
+                    <ul>
+                        <li>Não deixe os palitos espetados na comida</li>
+                        <li>Não levante a tigela de arroz até o rosto</li>
+                        <li>Use a colher para sopas e o palito para outros pratos</li>
+                    </ul>
+                </div>
+                <div class="etiquette-item">
+                    <div class="etiquette-icon">🍚</div>
+                    <h3>Após a Refeição</h3>
+                    <ul>
+                        <li>Diga "잘 먹었습니다" (jal meogeosseumnida) - "Comi bem"</li>
+                        <li>Coloque os utensílios de volta no lugar</li>
+                        <li>Agradeça ao anfitrião pela refeição</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>K-food Guide</h3>
+                    <p data-key="footer.description">Sua jornada pela autêntica culinária coreana</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4 data-key="footer.explore">Explorar</h4>
+                        <ul>
+                            <li><a href="culture.html" data-key="nav.culture">Cultura</a></li>
+                            <li><a href="menu.html" data-key="nav.menu">Menu</a></li>
+                            <li><a href="drinks.html" data-key="nav.drinks">Bebidas</a></li>
+                            <li><a href="blog.html" data-key="nav.blog">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4 data-key="footer.categories">Categorias</h4>
+                        <ul>
+                            <li><a href="#" data-key="categories.soups">Sopas</a></li>
+                            <li><a href="#" data-key="categories.banchan">Banchan</a></li>
+                            <li><a href="#" data-key="categories.grilled">Grelhados</a></li>
+                            <li><a href="#" data-key="categories.fermented">Fermentados</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 K-food Guide. <span data-key="footer.rights">Todos os direitos reservados.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/language.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

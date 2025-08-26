@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Korean Drinks - K-food Guide</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&family=Noto+Serif:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <h1>K-food Guide</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="culture.html" class="nav-link">Culture</a></li>
+                <li><a href="menu.html" class="nav-link">Menu</a></li>
+                <li><a href="drinks.html" class="nav-link active">Drinks</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+            </ul>
+            <div class="language-selector">
+                <select id="languageSelect">
+                    <option value="pt">PT</option>
+                    <option value="en">EN</option>
+                    <option value="ko">한국어</option>
+                </select>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="drinks-hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title" data-key="drinks.hero.title">Bebidas Coreanas Tradicionais</h1>
+                <p class="hero-subtitle" data-key="drinks.hero.subtitle">Descubra o mundo das bebidas coreanas: desde chás medicinais até vinhos tradicionais</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Non-Alcoholic Section -->
+    <section class="non-alcoholic-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-key="drinks.nonAlcoholic.title">Bebidas Não-Alcoólicas (비알콜 음료)</h2>
+                <p data-key="drinks.nonAlcoholic.subtitle">Chás tradicionais, sucos naturais e bebidas refrescantes</p>
+            </div>
+            <div class="drinks-grid">
+                <div class="drink-category">
+                    <h3>Chás Tradicionais (전통차)</h3>
+                    <div class="drink-items">
+                        <div class="drink-item">
+                            <div class="drink-icon">🍵</div>
+                            <h4>유자차 (Yuja-cha)</h4>
+                            <p>Chá de yuja (citrus junos) com mel, rico em vitamina C. Perfeito para o inverno.</p>
+                            <span class="drink-type">Chá Medicinal</span>
+                        </div>
+                        <div class="drink-item">
+                            <div class="drink-icon">🍵</div>
+                            <h4>대추차 (Daechu-cha)</h4>
+                            <p>Chá de jujuba doce e nutritivo. Ajuda na digestão e é calmante.</p>
+                            <span class="drink-type">Chá Medicinal</span>
+                        </div>
+                        <div class="drink-item">
+                            <div class="drink-icon">🍵</div>
+                            <h4>오미자차 (Omija-cha)</h4>
+                            <p>Chá de magnólia com cinco sabores: doce, salgado, azedo, amargo e picante.</p>
+                            <span class="drink-type">Chá Medicinal</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="drink-category">
+                    <h3>Punches e Bebidas Refrescantes (식혜, 수정과)</h3>
+                    <div class="drink-items">
+                        <div class="drink-item">
+                            <div class="drink-icon">🥤</div>
+                            <h4>식혜 (Sikhye)</h4>
+                            <p>Bebida doce de arroz maltado fermentado. Tradicionalmente servida como sobremesa.</p>
+                            <span class="drink-type">Bebida Tradicional</span>
+                        </div>
+                        <div class="drink-item">
+                            <div class="drink-icon">🥤</div>
+                            <h4>수정과 (Sujeonggwa)</h4>
+                            <p>Punch de canela e gengibre com peras secas. Bebida festiva tradicional.</p>
+                            <span class="drink-type">Bebida Festiva</span>
+                        </div>
+                        <div class="drink-item">
+                            <div class="drink-icon">🥤</div>
+                            <h4>배즙 (Bae-ju)</h4>
+                            <p>Suco natural de pera coreana. Refrescante e bom para a garganta.</p>
+                            <span class="drink-type">Suco Natural</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fermented/Probiotic Section -->
+    <section class="fermented-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-key="drinks.fermented.title">Bebidas Fermentadas e Probióticas (발효 음료)</h2>
+                <p data-key="drinks.fermented.subtitle">Bebidas tradicionais ricas em probióticos e nutrientes</p>
+            </div>
+            <div class="drinks-grid">
+                <div class="drink-category">
+                    <h3>Bebidas de Arroz Fermentado (막걸리, 동동주)</h3>
+                    <div class="drink-items">
+                        <div class="drink-item">
+                            <div class="drink-icon">🍶</div>
+                            <h4>막걸리 (Makgeolli)</h4>
+                            <p>Vinho de arroz leitoso e levemente doce. Baixo teor alcoólico (6-8%).</p>
+                            <span class="drink-type">Vinho de Arroz</span>
+                            <div class="drink-details">
+                                <span class="alcohol-content">6-8% ABV</span>
+                                <span class="serving-temp">Frio</span>
+                            </div>
+                        </div>
+                        <div class="drink-item">
+                            <div class="drink-icon">🍶</div>
+                            <h4>동동주 (Dongdongju)</h4>
+                            <p>Versão mais refinada do makgeolli, com grãos de arroz flutuando.</p>
+                            <span class="drink-type">Vinho de Arroz</span>
+                            <div class="drink-details">
+                                <span class="alcohol-content">6-8% ABV</span>
+                                <span class="serving-temp">Frio</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="drink-category">
+                    <h3>Bebidas de Vinagre (식초 음료)</h3>
+                    <div class="drink-items">
+                        <div class="drink-item">
+                            <div class="drink-icon">🥤</div>
+                            <h4>매실초 (Maesil-cha)</h4>
+                            <p>Bebida de vinagre de ameixa japonesa. Ajuda na digestão e é refrescante.</p>
+                            <span class="drink-type">Bebida Medicinal</span>
+                        </div>
+                        <div class="drink-item">
+                            <div class="drink-icon">🥤</div>
+                            <h4>사과초 (Sagwa-cha)</h4>
+                            <p>Bebida de vinagre de maçã. Rica em pectina e probióticos.</p>
+                            <span class="drink-type">Bebida Medicinal</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Alcoholic Section -->
+    <section class="alcoholic-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-key="drinks.alcoholic.title">Bebidas Alcoólicas Coreanas (한국 술)</h2>
+                <p data-key="drinks.alcoholic.subtitle">Vinhos tradicionais, licores destilados e bebidas artesanais</p>
+            </div>
+            <div class="drinks-grid">
+                <div class="drink-category">
+                    <h3>Licores Destilados (증류주)</h3>
+                    <div class="drink-items">
+                        <div class="drink-item">
+                            <div class="drink-icon">🥃</div>
+                            <h4>소주 (Soju)</h4>
+                            <p>Licor nacional da Coreia, destilado de arroz ou batata-doce. Sabor neutro e versátil.</p>
+                            <span class="drink-type">Licor Destilado</span>
+                            <div class="drink-details">
+                                <span class="alcohol-content">16-53% ABV</span>
+                                <span class="serving-temp">Frio</span>
+                            </div>
+                        </div>
+                        <div class="drink-item">
+                            <div class="drink-icon">🥃</div>
+                            <h4>안동소주 (Andong Soju)</h4>
+                            <p>Soju artesanal de Andong, feito com métodos tradicionais. Mais forte e saboroso.</p>
+                            <span class="drink-type">Licor Artesanal</span>
+                            <div class="drink-details">
+                                <span class="alcohol-content">40-45% ABV</span>
+                                <span class="serving-temp">Frio</span>
+                            </div>
+                        </div>
+                        <div class="drink-item">
+                            <div class="drink-icon">🥃</div>
+                            <h4>문배주 (Munbaeju)</h4>
+                            <p>Licor tradicional de Seul, feito com arroz e nuruk. Sabor rico e complexo.</p>
+                            <span class="drink-type">Licor Tradicional</span>
+                            <div class="drink-details">
+                                <span class="alcohol-content">18-20% ABV</span>
+                                <span class="serving-temp">Frio</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="drink-category">
+                    <h3>Vinhos de Frutas (과일주)</h3>
+                    <div class="drink-items">
+                        <div class="drink-item">
+                            <div class="drink-icon">🍷</div>
+                            <h4>매실주 (Maesilju)</h4>
+                            <p>Vinho de ameixa japonesa, doce e aromático. Perfeito para acompanhar sobremesas.</p>
+                            <span class="drink-type">Vinho de Fruta</span>
+                            <div class="drink-details">
+                                <span class="alcohol-content">12-15% ABV</span>
+                                <span class="serving-temp">Frio</span>
+                            </div>
+                        </div>
+                        <div class="drink-item">
+                            <div class="drink-icon">🍷</div>
+                            <h4>복분자주 (Bokbunja-ju)</h4>
+                            <p>Vinho de amora silvestre, rico em antioxidantes. Cor vermelha profunda.</p>
+                            <span class="drink-type">Vinho de Fruta</span>
+                            <div class="drink-details">
+                                <span class="alcohol-content">15-18% ABV</span>
+                                <span class="serving-temp">Frio</span>
+                            </div>
+                        </div>
+                        <div class="drink-item">
+                            <div class="drink-icon">🍷</div>
+                            <h4>산사춘 (Sansachun)</h4>
+                            <p>Vinho de espinheiro, tradicionalmente usado na medicina coreana.</p>
+                            <span class="drink-type">Vinho Medicinal</span>
+                            <div class="drink-details">
+                                <span class="alcohol-content">13-16% ABV</span>
+                                <span class="serving-temp">Frio</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="drink-category">
+                    <h3>Vinhos de Arroz (청주, 백하수)</h3>
+                    <div class="drink-items">
+                        <div class="drink-item">
+                            <div class="drink-icon">🍶</div>
+                            <h4>청주 (Cheongju)</h4>
+                            <p>Vinho de arroz refinado, límpido e elegante. Considerado o "sake" coreano.</p>
+                            <span class="drink-type">Vinho de Arroz</span>
+                            <div class="drink-details">
+                                <span class="alcohol-content">15-18% ABV</span>
+                                <span class="serving-temp">Frio</span>
+                            </div>
+                        </div>
+                        <div class="drink-item">
+                            <div class="drink-icon">🍶</div>
+                            <h4>백하수 (Baekhaju)</h4>
+                            <p>Vinho de arroz branco, suave e doce. Perfeito para iniciantes.</p>
+                            <span class="drink-type">Vinho de Arroz</span>
+                            <div class="drink-details">
+                                <span class="alcohol-content">12-15% ABV</span>
+                                <span class="serving-temp">Frio</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modern Beverages Section -->
+    <section class="modern-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-key="drinks.modern.title">Bebidas Modernas (현대 음료)</h2>
+                <p data-key="drinks.modern.subtitle">Fusão de tradição coreana com influências contemporâneas</p>
+            </div>
+            <div class="drinks-grid">
+                <div class="drink-category">
+                    <h3>Café e Bebidas Contemporâneas</h3>
+                    <div class="drink-items">
+                        <div class="drink-item">
+                            <div class="drink-icon">☕</div>
+                            <h4>달고나 커피 (Dalgona Coffee)</h4>
+                            <p>Café coreano viral com espuma de café batida. Doce e cremoso.</p>
+                            <span class="drink-type">Café Moderno</span>
+                        </div>
+                        <div class="drink-item">
+                            <div class="drink-icon">🥤</div>
+                            <h4>과일 소주 (Fruit Soju)</h4>
+                            <p>Soju com sabores de frutas como pêssego, uva e morango.</p>
+                            <span class="drink-type">Soju Aromatizado</span>
+                        </div>
+                        <div class="drink-item">
+                            <div class="drink-icon">🥤</div>
+                            <h4>콜라 소주 (Cola Soju)</h4>
+                            <p>Mistura popular de soju com Coca-Cola. Refrescante e fácil de beber.</p>
+                            <span class="drink-type">Cocktail Coreano</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="drink-category">
+                    <h3>Bebidas de Conveniência</h3>
+                    <div class="drink-items">
+                        <div class="drink-item">
+                            <div class="drink-icon">🥤</div>
+                            <h4>커피 우유 (Coffee Milk)</h4>
+                            <p>Leite com café instantâneo, bebida matinal popular na Coreia.</p>
+                            <span class="drink-type">Bebida Láctea</span>
+                        </div>
+                        <div class="drink-item">
+                            <div class="drink-icon">🥤</div>
+                            <h4>초코 우유 (Choco Milk)</h4>
+                            <p>Leite com chocolate, versão coreana do chocolate quente.</p>
+                            <span class="drink-type">Bebida Láctea</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Drinking Culture Section -->
+    <section class="drinking-culture">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-key="drinks.culture.title">Cultura de Beber na Coreia (한국의 술 문화)</h2>
+                <p data-key="drinks.culture.subtitle">Tradições, etiqueta e rituais associados ao consumo de bebidas</p>
+            </div>
+            <div class="culture-grid">
+                <div class="culture-item">
+                    <div class="culture-icon">🍶</div>
+                    <h3>Rituais de Beber</h3>
+                    <p>Na Coreia, beber é uma atividade social importante. Sempre sirva os outros antes de si mesmo e use ambas as mãos ao servir.</p>
+                </div>
+                <div class="culture-item">
+                    <div class="culture-icon">🥢</div>
+                    <h3>Anju (안주)</h3>
+                    <p>Pratos servidos com bebidas alcoólicas. Kimchi, galbi e outros pratos salgados são populares.</p>
+                </div>
+                <div class="culture-item">
+                    <div class="culture-icon">🙏</div>
+                    <h3>Etiqueta</h3>
+                    <p>Não encha seu próprio copo. Deixe que outros o sirvam e retribua o favor.</p>
+                </div>
+                <div class="culture-item">
+                    <div class="culture-icon">🎉</div>
+                    <h3>Celebrações</h3>
+                    <p>Bebidas especiais são servidas em feriados como Seollal e Chuseok.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>K-food Guide</h3>
+                    <p data-key="footer.description">Sua jornada pela autêntica culinária coreana</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4 data-key="footer.explore">Explorar</h4>
+                        <ul>
+                            <li><a href="culture.html" data-key="nav.culture">Cultura</a></li>
+                            <li><a href="menu.html" data-key="nav.menu">Menu</a></li>
+                            <li><a href="drinks.html" data-key="nav.drinks">Bebidas</a></li>
+                            <li><a href="blog.html" data-key="nav.blog">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4 data-key="footer.categories">Categorias</h4>
+                        <ul>
+                            <li><a href="#" data-key="categories.soups">Sopas</a></li>
+                            <li><a href="#" data-key="categories.banchan">Banchan</a></li>
+                            <li><a href="#" data-key="categories.grilled">Grelhados</a></li>
+                            <li><a href="#" data-key="categories.fermented">Fermentados</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 K-food Guide. <span data-key="footer.rights">Todos os direitos reservados.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/language.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

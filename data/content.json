@@ -1,0 +1,518 @@
+{
+  "pt": {
+    "nav": {
+      "home": "Home",
+      "culture": "Cultura",
+      "menu": "Menu",
+      "drinks": "Bebidas",
+      "blog": "Blog",
+      "about": "Sobre"
+    },
+    "hero": {
+      "title": "Guia da Culinária Coreana",
+      "subtitle": "Uma jornada através dos sabores, tradições e cultura da Coreia através de sua rica gastronomia",
+      "cta": "Explorar Receitas"
+    },
+    "medicine": {
+      "title": "Na Coreia, comida é medicina",
+      "description": "A filosofia coreana vê a alimentação como uma forma de medicina preventiva. Cada cor, sabor e ingrediente tem um propósito específico para nutrir o corpo e a alma.",
+      "philosophy": "Os cinco elementos (오행) - madeira, fogo, terra, metal e água - são representados através das cores dos alimentos: verde, vermelho, amarelo, branco e preto.",
+      "cta": "Saiba Mais"
+    },
+    "browse": {
+      "title": "Explore o Menu"
+    },
+    "categories": {
+      "soups": "Sopas e Ensopados",
+      "soups.desc": "Guk, Tang, Jjigae e Jeongol - sopas nutritivas para todas as ocasiões",
+      "banchan": "Banchan",
+      "banchan.desc": "Acompanhamentos tradicionais que completam qualquer refeição coreana",
+      "grilled": "Grelhados",
+      "grilled.desc": "Bulgogi, Galbi e outros pratos grelhados cheios de sabor",
+      "cold": "Pratos Frios",
+      "cold.desc": "Naengmyeon, Mulhoe e outras delícias refrescantes",
+      "fermented": "Fermentados"
+    },
+    "recipes": {
+      "title": "Nossas Receitas",
+      "viewAll": "Ver Todas",
+      "kimchi": {
+        "title": "Kimchi Tradicional",
+        "desc": "O acompanhamento fermentado mais icônico da Coreia"
+      },
+      "bulgogi": {
+        "title": "Bulgogi",
+        "desc": "Carne marinada grelhada com sabor doce e salgado"
+      },
+      "bibimbap": {
+        "title": "Bibimbap",
+        "desc": "Tigela mista com arroz, vegetais e gochujang"
+      }
+    },
+    "culture": {
+      "hero": {
+        "title": "A Cultura da Culinária Coreana",
+        "subtitle": "Descubra a filosofia, tradições e significados profundos por trás de cada prato coreano"
+      },
+      "medicine": {
+        "title": "음식은 약이다 (Food is Medicine)",
+        "subtitle": "A filosofia coreana de alimentação como medicina preventiva",
+        "description": "Na Coreia, acredita-se que \"음식은 약이다\" (eumsik-eun yak-ida) - \"comida é remédio\". Esta filosofia milenar baseia-se nos princípios da medicina oriental e na crença de que cada ingrediente tem propriedades curativas específicas."
+      },
+      "colors": {
+        "title": "A Filosofia das Cores na Culinária Coreana",
+        "subtitle": "Cada cor tem um significado especial e propriedades nutricionais"
+      },
+      "regional": {
+        "title": "Diferenças Regionais na Culinária Coreana",
+        "subtitle": "Cada província tem suas especialidades e tradições culinárias únicas"
+      },
+      "utensils": {
+        "title": "Utensílios e Materiais Tradicionais",
+        "subtitle": "A escolha dos materiais afeta o sabor e a experiência da refeição"
+      },
+      "influences": {
+        "title": "Influências Culinárias na Coreia",
+        "subtitle": "Como diferentes filosofias e culturas moldaram a culinária coreana"
+      },
+      "etiquette": {
+        "title": "Regras de Etiqueta na Mesa Coreana",
+        "subtitle": "Respeite as tradições e mostre apreciação pela cultura coreana"
+      }
+    },
+    "drinks": {
+      "hero": {
+        "title": "Bebidas Coreanas Tradicionais",
+        "subtitle": "Descubra o mundo das bebidas coreanas: desde chás medicinais até vinhos tradicionais"
+      },
+      "nonAlcoholic": {
+        "title": "Bebidas Não-Alcoólicas (비알콜 음료)",
+        "subtitle": "Chás tradicionais, sucos naturais e bebidas refrescantes"
+      },
+      "fermented": {
+        "title": "Bebidas Fermentadas e Probióticas (발효 음료)",
+        "subtitle": "Bebidas tradicionais ricas em probióticos e nutrientes"
+      },
+      "alcoholic": {
+        "title": "Bebidas Alcoólicas Coreanas (한국 술)",
+        "subtitle": "Vinhos tradicionais, licores destilados e bebidas artesanais"
+      },
+      "modern": {
+        "title": "Bebidas Modernas (현대 음료)",
+        "subtitle": "Fusão de tradição coreana com influências contemporâneas"
+      },
+      "culture": {
+        "title": "Cultura de Beber na Coreia (한국의 술 문화)",
+        "subtitle": "Tradições, etiqueta e rituais associados ao consumo de bebidas"
+      }
+    },
+    "blog": {
+      "hero": {
+        "title": "Blog de Receitas Coreanas",
+        "subtitle": "Receitas rápidas, fáceis e modernas para trazer a Coreia para sua cozinha"
+      },
+      "featured": {
+        "title": "Receitas em Destaque",
+        "subtitle": "Nossas receitas mais populares e amadas"
+      },
+      "newsletter": {
+        "title": "Receba Novas Receitas",
+        "subtitle": "Inscreva-se para receber as melhores receitas coreanas diretamente no seu email",
+        "submit": "Inscrever-se"
+      }
+    },
+    "about": {
+      "hero": {
+        "title": "Sobre o K-food Guide",
+        "subtitle": "Conheça a história por trás deste projeto e nossa paixão pela culinária coreana"
+      },
+      "story": {
+        "title": "Nossa História",
+        "intro": "O K-food Guide nasceu de uma paixão profunda pela culinária coreana e do desejo de compartilhar essa rica tradição gastronômica com o mundo.",
+        "background": "Tudo começou durante uma viagem à Coreia do Sul, onde tive a oportunidade de experimentar a autêntica culinária local. Desde o primeiro kimchi até o último gochujang, cada sabor contava uma história de tradição, inovação e amor pela comida.",
+        "mission": "Ao retornar, percebi que havia uma lacuna no conhecimento sobre a culinária coreana no Brasil. Muitas pessoas conheciam apenas o básico, perdendo a oportunidade de explorar um universo gastronômico incrivelmente rico e diversificado."
+      },
+      "mission": {
+        "title": "Nossa Missão",
+        "subtitle": "O que nos motiva e orienta todos os dias"
+      },
+      "values": {
+        "title": "Nossos Valores",
+        "subtitle": "Os princípios que guiam nosso trabalho"
+      },
+      "team": {
+        "title": "Nossa Equipe",
+        "subtitle": "Conheça as pessoas por trás do K-food Guide"
+      },
+      "contact": {
+        "title": "Entre em Contato",
+        "subtitle": "Temos algo a dizer? Adoraríamos ouvir de você!",
+        "info": {
+          "title": "Informações de Contato"
+        },
+        "form": {
+          "title": "Envie uma Mensagem",
+          "name": "Nome",
+          "email": "Email",
+          "subject": "Assunto",
+          "message": "Mensagem",
+          "submit": "Enviar Mensagem"
+        }
+      },
+      "faq": {
+        "title": "Perguntas Frequentes",
+        "subtitle": "Respostas para as dúvidas mais comuns"
+      }
+    },
+    "footer": {
+      "description": "Sua jornada pela autêntica culinária coreana",
+      "explore": "Explorar",
+      "categories": "Categorias",
+      "rights": "Todos os direitos reservados."
+    }
+  },
+  "en": {
+    "nav": {
+      "home": "Home",
+      "culture": "Culture",
+      "menu": "Menu",
+      "drinks": "Drinks",
+      "blog": "Blog",
+      "about": "About"
+    },
+    "hero": {
+      "title": "Discover Authentic Korean Cuisine",
+      "subtitle": "A journey through Korea's flavors, traditions and culture through its rich gastronomy",
+      "cta": "Explore Recipes"
+    },
+    "medicine": {
+      "title": "In Korea, food is medicine",
+      "description": "Korean philosophy sees food as a form of preventive medicine. Each color, flavor and ingredient has a specific purpose to nourish body and soul.",
+      "philosophy": "The five elements (오행) - wood, fire, earth, metal and water - are represented through food colors: green, red, yellow, white and black.",
+      "cta": "Learn More"
+    },
+    "browse": {
+      "title": "Browse the Menu"
+    },
+    "categories": {
+      "soups": "Soups & Stews",
+      "soups.desc": "Guk, Tang, Jjigae and Jeongol - nutritious soups for all occasions",
+      "banchan": "Banchan",
+      "banchan.desc": "Traditional side dishes that complete any Korean meal",
+      "grilled": "Grilled",
+      "grilled.desc": "Bulgogi, Galbi and other flavorful grilled dishes",
+      "cold": "Cold Dishes",
+      "cold.desc": "Naengmyeon, Mulhoe and other refreshing delights",
+      "fermented": "Fermented"
+    },
+    "recipes": {
+      "title": "Our Recipes",
+      "viewAll": "View All",
+      "kimchi": {
+        "title": "Traditional Kimchi",
+        "desc": "Korea's most iconic fermented side dish"
+      },
+      "bulgogi": {
+        "title": "Bulgogi",
+        "desc": "Marinated grilled beef with sweet and savory flavor"
+      },
+      "bibimbap": {
+        "title": "Bibimbap",
+        "desc": "Mixed rice bowl with vegetables and gochujang"
+      }
+    },
+    "culture": {
+      "hero": {
+        "title": "Korean Food Culture",
+        "subtitle": "Discover the philosophy, traditions and deep meanings behind each Korean dish"
+      },
+      "medicine": {
+        "title": "음식은 약이다 (Food is Medicine)",
+        "subtitle": "The Korean philosophy of food as preventive medicine",
+        "description": "In Korea, it is believed that \"음식은 약이다\" (eumsik-eun yak-ida) - \"food is medicine\". This ancient philosophy is based on oriental medicine principles and the belief that each ingredient has specific healing properties."
+      },
+      "colors": {
+        "title": "The Philosophy of Colors in Korean Cuisine",
+        "subtitle": "Each color has a special meaning and nutritional properties"
+      },
+      "regional": {
+        "title": "Regional Differences in Korean Cuisine",
+        "subtitle": "Each province has its unique culinary specialties and traditions"
+      },
+      "utensils": {
+        "title": "Traditional Utensils and Materials",
+        "subtitle": "The choice of materials affects the taste and dining experience"
+      },
+      "influences": {
+        "title": "Culinary Influences in Korea",
+        "subtitle": "How different philosophies and cultures shaped Korean cuisine"
+      },
+      "etiquette": {
+        "title": "Table Etiquette Rules in Korea",
+        "subtitle": "Respect traditions and show appreciation for Korean culture"
+      }
+    },
+    "drinks": {
+      "hero": {
+        "title": "Traditional Korean Drinks",
+        "subtitle": "Discover the world of Korean beverages: from medicinal teas to traditional wines"
+      },
+      "nonAlcoholic": {
+        "title": "Non-Alcoholic Beverages (비알콜 음료)",
+        "subtitle": "Traditional teas, natural juices and refreshing drinks"
+      },
+      "fermented": {
+        "title": "Fermented and Probiotic Beverages (발효 음료)",
+        "subtitle": "Traditional beverages rich in probiotics and nutrients"
+      },
+      "alcoholic": {
+        "title": "Korean Alcoholic Beverages (한국 술)",
+        "subtitle": "Traditional wines, distilled spirits and artisanal beverages"
+      },
+      "modern": {
+        "title": "Modern Beverages (현대 음료)",
+        "subtitle": "Fusion of Korean tradition with contemporary influences"
+      },
+      "culture": {
+        "title": "Drinking Culture in Korea (한국의 술 문화)",
+        "subtitle": "Traditions, etiquette and rituals associated with beverage consumption"
+      }
+    },
+    "blog": {
+      "hero": {
+        "title": "Korean Food Recipe Blog",
+        "subtitle": "Quick, easy and modern recipes to bring Korea to your kitchen"
+      },
+      "featured": {
+        "title": "Featured Recipes",
+        "subtitle": "Our most popular and beloved recipes"
+      },
+      "newsletter": {
+        "title": "Get New Recipes",
+        "subtitle": "Subscribe to receive the best Korean recipes directly in your email",
+        "submit": "Subscribe"
+      }
+    },
+    "about": {
+      "hero": {
+        "title": "About K-food Guide",
+        "subtitle": "Learn the story behind this project and our passion for Korean cuisine"
+      },
+      "story": {
+        "title": "Our Story",
+        "intro": "K-food Guide was born from a deep passion for Korean cuisine and the desire to share this rich gastronomic tradition with the world.",
+        "background": "It all started during a trip to South Korea, where I had the opportunity to experience authentic local cuisine. From the first kimchi to the last gochujang, each flavor told a story of tradition, innovation and love for food.",
+        "mission": "Upon returning, I realized there was a gap in knowledge about Korean cuisine in Brazil. Many people knew only the basics, missing the opportunity to explore an incredibly rich and diverse gastronomic universe."
+      },
+      "mission": {
+        "title": "Our Mission",
+        "subtitle": "What motivates and guides us every day"
+      },
+      "values": {
+        "title": "Our Values",
+        "subtitle": "The principles that guide our work"
+      },
+      "team": {
+        "title": "Our Team",
+        "subtitle": "Meet the people behind K-food Guide"
+      },
+      "contact": {
+        "title": "Get in Touch",
+        "subtitle": "Have something to say? We'd love to hear from you!",
+        "info": {
+          "title": "Contact Information"
+        },
+        "form": {
+          "title": "Send a Message",
+          "name": "Name",
+          "email": "Email",
+          "subject": "Subject",
+          "message": "Message",
+          "submit": "Send Message"
+        }
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "subtitle": "Answers to the most common questions"
+      }
+    },
+    "footer": {
+      "description": "Your journey through authentic Korean cuisine",
+      "explore": "Explore",
+      "categories": "Categories",
+      "rights": "All rights reserved."
+    }
+  },
+  "ko": {
+    "nav": {
+      "home": "홈",
+      "culture": "문화",
+      "menu": "메뉴",
+      "drinks": "음료",
+      "blog": "블로그",
+      "about": "소개"
+    },
+    "hero": {
+      "title": "정통 한국 요리를 발견하세요",
+      "subtitle": "한국의 풍부한 미식을 통해 맛, 전통, 문화를 여행하세요",
+      "cta": "레시피 탐색"
+    },
+    "medicine": {
+      "title": "한국에서 음식은 약이다",
+      "description": "한국 철학은 음식을 예방 의학의 한 형태로 봅니다. 각 색깔, 맛, 재료는 몸과 마음을 영양분으로 공급하는 특별한 목적이 있습니다.",
+      "philosophy": "오행 - 목, 화, 토, 금, 수는 음식의 색깔을 통해 표현됩니다: 녹색, 빨간색, 노란색, 흰색, 검은색.",
+      "cta": "더 알아보기"
+    },
+    "browse": {
+      "title": "메뉴 둘러보기"
+    },
+    "categories": {
+      "soups": "국물 요리",
+      "soups.desc": "국, 탕, 찌개, 전골 - 모든 경우에 맞는 영양가 있는 국물 요리",
+      "banchan": "반찬",
+      "banchan.desc": "한국 식사를 완성하는 전통 밑반찬",
+      "grilled": "구이",
+      "grilled.desc": "불고기, 갈비 및 기타 맛있는 구이 요리",
+      "cold": "냉요리",
+      "cold.desc": "냉면, 물회 및 기타 시원한 별미",
+      "fermented": "발효 음식"
+    },
+    "recipes": {
+      "title": "우리의 레시피",
+      "viewAll": "모두 보기",
+      "kimchi": {
+        "title": "전통 김치",
+        "desc": "한국의 가장 상징적인 발효 반찬"
+      },
+      "bulgogi": {
+        "title": "불고기",
+        "desc": "달콤하고 짭짤한 맛의 양념 구이 소고기"
+      },
+      "bibimbap": {
+        "title": "비빔밥",
+        "desc": "야채와 고추장을 넣은 비빔밥"
+      }
+    },
+    "culture": {
+      "hero": {
+        "title": "한국 음식 문화",
+        "subtitle": "각 한국 요리 뒤에 숨겨진 철학, 전통, 깊은 의미를 발견하세요"
+      },
+      "medicine": {
+        "title": "음식은 약이다 (Food is Medicine)",
+        "subtitle": "예방 의학으로서의 음식에 대한 한국 철학",
+        "description": "한국에서는 \"음식은 약이다\"라고 믿어집니다. 이 고대 철학은 동양 의학 원칙과 각 재료가 특정 치유 특성을 가지고 있다는 믿음에 기반합니다."
+      },
+      "colors": {
+        "title": "한국 요리에서 색깔의 철학",
+        "subtitle": "각 색깔은 특별한 의미와 영양 특성을 가집니다"
+      },
+      "regional": {
+        "title": "한국 요리의 지역적 차이",
+        "subtitle": "각 지방은 고유한 요리 특색과 전통을 가지고 있습니다"
+      },
+      "utensils": {
+        "title": "전통 조리도구와 재료",
+        "subtitle": "재료 선택은 맛과 식사 경험에 영향을 줍니다"
+      },
+      "influences": {
+        "title": "한국의 요리적 영향",
+        "subtitle": "다양한 철학과 문화가 한국 요리를 어떻게 형성했는지"
+      },
+      "etiquette": {
+        "title": "한국 식탁 예절 규칙",
+        "subtitle": "전통을 존중하고 한국 문화에 대한 감사를 표현하세요"
+      }
+    },
+    "drinks": {
+      "hero": {
+        "title": "전통 한국 음료",
+        "subtitle": "한국 음료의 세계를 발견하세요: 약용 차부터 전통 와인까지"
+      },
+      "nonAlcoholic": {
+        "title": "무알콜 음료 (비알콜 음료)",
+        "subtitle": "전통 차, 천연 주스 및 상쾌한 음료"
+      },
+      "fermented": {
+        "title": "발효 및 프로바이오틱 음료 (발효 음료)",
+        "subtitle": "프로바이오틱과 영양소가 풍부한 전통 음료"
+      },
+      "alcoholic": {
+        "title": "한국 알콜 음료 (한국 술)",
+        "subtitle": "전통 와인, 증류주 및 수공예 음료"
+      },
+      "modern": {
+        "title": "현대 음료 (현대 음료)",
+        "subtitle": "한국 전통과 현대적 영향의 융합"
+      },
+      "culture": {
+        "title": "한국의 음주 문화 (한국의 술 문화)",
+        "subtitle": "음료 소비와 관련된 전통, 예절 및 의식"
+      }
+    },
+    "blog": {
+      "hero": {
+        "title": "한국 음식 레시피 블로그",
+        "subtitle": "한국을 당신의 부엌으로 가져오는 빠르고 쉬운 현대적 레시피"
+      },
+      "featured": {
+        "title": "추천 레시피",
+        "subtitle": "가장 인기 있고 사랑받는 레시피"
+      },
+      "newsletter": {
+        "title": "새로운 레시피 받기",
+        "subtitle": "최고의 한국 레시피를 이메일로 직접 받으려면 구독하세요",
+        "submit": "구독하기"
+      }
+    },
+    "about": {
+      "hero": {
+        "title": "K-food Guide 소개",
+        "subtitle": "이 프로젝트 뒤에 숨겨진 이야기와 한국 요리에 대한 우리의 열정을 알아보세요"
+      },
+      "story": {
+        "title": "우리의 이야기",
+        "intro": "K-food Guide는 한국 요리에 대한 깊은 열정과 이 풍부한 요리 전통을 세계와 공유하고자 하는 열망에서 태어났습니다.",
+        "background": "모든 것은 한국 여행 중에 시작되었습니다. 거기서 저는 진정한 현지 요리를 경험할 기회를 가졌습니다. 첫 번째 김치부터 마지막 고추장까지, 각 맛은 전통, 혁신, 음식에 대한 사랑의 이야기를 들려주었습니다.",
+        "mission": "돌아온 후, 저는 브라질에서 한국 요리에 대한 지식의 격차가 있다는 것을 깨달았습니다. 많은 사람들이 기본적인 것만 알고 있어서, 놀랍도록 풍부하고 다양한 요리의 우주를 탐험할 기회를 놓치고 있었습니다."
+      },
+      "mission": {
+        "title": "우리의 미션",
+        "subtitle": "우리를 매일 동기부여하고 인도하는 것"
+      },
+      "values": {
+        "title": "우리의 가치",
+        "subtitle": "우리 작업을 인도하는 원칙들"
+      },
+      "team": {
+        "title": "우리의 팀",
+        "subtitle": "K-food Guide 뒤에 있는 사람들을 만나보세요"
+      },
+      "contact": {
+        "title": "연락하기",
+        "subtitle": "말하고 싶은 것이 있나요? 여러분의 의견을 듣고 싶습니다!",
+        "info": {
+          "title": "연락처 정보"
+        },
+        "form": {
+          "title": "메시지 보내기",
+          "name": "이름",
+          "email": "이메일",
+          "subject": "제목",
+          "message": "메시지",
+          "submit": "메시지 보내기"
+        }
+      },
+      "faq": {
+        "title": "자주 묻는 질문",
+        "subtitle": "가장 일반적인 질문에 대한 답변"
+      }
+    },
+    "footer": {
+      "description": "정통 한국 요리를 통한 여행",
+      "explore": "탐색",
+      "categories": "카테고리",
+      "rights": "모든 권리 보유."
+    }
+  }
+}

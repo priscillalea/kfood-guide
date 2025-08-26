@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - K-food Guide</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&family=Noto+Serif:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <h1>K-food Guide</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="culture.html" class="nav-link">Culture</a></li>
+                <li><a href="menu.html" class="nav-link active">Menu</a></li>
+                <li><a href="drinks.html" class="nav-link">Drinks</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+            </ul>
+            <div class="language-selector">
+                <select id="languageSelect">
+                    <option value="pt">PT</option>
+                    <option value="en">EN</option>
+                    <option value="ko">한국어</option>
+                </select>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Menu Hero Section -->
+    <section class="menu-hero">
+        <div class="container">
+            <h1 class="page-title" data-key="menu.title">Nosso Menu</h1>
+            <p class="page-subtitle" data-key="menu.subtitle">Explore a diversidade da culinária coreana através de nossas categorias</p>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="filter-section">
+        <div class="container">
+            <div class="filter-controls">
+                <button class="filter-btn active" data-filter="all" data-key="menu.filter.all">Todos</button>
+                <button class="filter-btn" data-filter="soups" data-key="menu.filter.soups">Sopas</button>
+                <button class="filter-btn" data-filter="banchan" data-key="menu.filter.banchan">Banchan</button>
+                <button class="filter-btn" data-filter="grilled" data-key="menu.filter.grilled">Grelhados</button>
+                <button class="filter-btn" data-filter="cold" data-key="menu.filter.cold">Frios</button>
+                <button class="filter-btn" data-filter="fermented" data-key="menu.filter.fermented">Fermentados</button>
+                <button class="filter-btn" data-filter="street" data-key="menu.filter.street">Street Food</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Grid Section -->
+    <section class="menu-grid-section">
+        <div class="container">
+            <div class="menu-grid" id="menuGrid">
+                <!-- Soups & Stews -->
+                <div class="menu-item" data-category="soups" data-recipe="kimchi-jjigae">
+                    <img src="/placeholder.svg?height=250&width=350" alt="Kimchi Jjigae">
+                    <div class="menu-item-info">
+                        <h3 data-key="menu.items.kimchi-jjigae.title">Kimchi Jjigae</h3>
+                        <p data-key="menu.items.kimchi-jjigae.desc">Ensopado picante de kimchi com tofu e carne de porco</p>
+                        <span class="menu-item-time">⏱️ 25 min</span>
+                        <span class="menu-item-spice">🌶️🌶️🌶️</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="soups" data-recipe="samgyetang">
+                    <img src="/placeholder.svg?height=250&width=350" alt="Samgyetang">
+                    <div class="menu-item-info">
+                        <h3 data-key="menu.items.samgyetang.title">Samgyetang</h3>
+                        <p data-key="menu.items.samgyetang.desc">Sopa medicinal de frango com ginseng e arroz</p>
+                        <span class="menu-item-time">⏱️ 90 min</span>
+                        <span class="menu-item-spice">🌶️</span>
+                    </div>
+                </div>
+
+                <!-- Banchan -->
+                <div class="menu-item" data-category="banchan fermented" data-recipe="kimchi">
+                    <img src="/placeholder.svg?height=250&width=350" alt="Kimchi">
+                    <div class="menu-item-info">
+                        <h3 data-key="menu.items.kimchi.title">Kimchi Tradicional</h3>
+                        <p data-key="menu.items.kimchi.desc">Repolho fermentado com pimenta e especiarias</p>
+                        <span class="menu-item-time">⏱️ 30 min + fermentação</span>
+                        <span class="menu-item-spice">🌶️🌶️</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="banchan" data-recipe="spinach-namul">
+                    <img src="/placeholder.svg?height=250&width=350" alt="Spinach Namul">
+                    <div class="menu-item-info">
+                        <h3 data-key="menu.items.spinach-namul.title">Sigeumchi Namul</h3>
+                        <p data-key="menu.items.spinach-namul.desc">Espinafre temperado com alho e óleo de gergelim</p>
+                        <span class="menu-item-time">⏱️ 15 min</span>
+                        <span class="menu-item-spice">🌶️</span>
+                    </div>
+                </div>
+
+                <!-- Grilled -->
+                <div class="menu-item" data-category="grilled" data-recipe="bulgogi">
+                    <img src="/placeholder.svg?height=250&width=350" alt="Bulgogi">
+                    <div class="menu-item-info">
+                        <h3 data-key="menu.items.bulgogi.title">Bulgogi</h3>
+                        <p data-key="menu.items.bulgogi.desc">Carne bovina marinada e grelhada</p>
+                        <span class="menu-item-time">⏱️ 45 min</span>
+                        <span class="menu-item-spice">🌶️</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="grilled" data-recipe="galbi">
+                    <img src="/placeholder.svg?height=250&width=350" alt="Galbi">
+                    <div class="menu-item-info">
+                        <h3 data-key="menu.items.galbi.title">Galbi</h3>
+                        <p data-key="menu.items.galbi.desc">Costelas de boi marinadas e grelhadas</p>
+                        <span class="menu-item-time">⏱️ 60 min</span>
+                        <span class="menu-item-spice">🌶️</span>
+                    </div>
+                </div>
+
+                <!-- Cold Dishes -->
+                <div class="menu-item" data-category="cold" data-recipe="naengmyeon">
+                    <img src="/placeholder.svg?height=250&width=350" alt="Naengmyeon">
+                    <div class="menu-item-info">
+                        <h3 data-key="menu.items.naengmyeon.title">Naengmyeon</h3>
+                        <p data-key="menu.items.naengmyeon.desc">Macarrão frio em caldo gelado</p>
+                        <span class="menu-item-time">⏱️ 20 min</span>
+                        <span class="menu-item-spice">🌶️</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="cold" data-recipe="bibimbap">
+                    <img src="/placeholder.svg?height=250&width=350" alt="Bibimbap">
+                    <div class="menu-item-info">
+                        <h3 data-key="menu.items.bibimbap.title">Bibimbap</h3>
+                        <p data-key="menu.items.bibimbap.desc">Tigela de arroz com vegetais variados</p>
+                        <span class="menu-item-time">⏱️ 35 min</span>
+                        <span class="menu-item-spice">🌶️🌶️</span>
+                    </div>
+                </div>
+
+                <!-- Street Food -->
+                <div class="menu-item" data-category="street" data-recipe="tteokbokki">
+                    <img src="/placeholder.svg?height=250&width=350" alt="Tteokbokki">
+                    <div class="menu-item-info">
+                        <h3 data-key="menu.items.tteokbokki.title">Tteokbokki</h3>
+                        <p data-key="menu.items.tteokbokki.desc">Bolinhos de arroz em molho picante</p>
+                        <span class="menu-item-time">⏱️ 20 min</span>
+                        <span class="menu-item-spice">🌶️🌶️🌶️</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="street" data-recipe="hotteok">
+                    <img src="/placeholder.svg?height=250&width=350" alt="Hotteok">
+                    <div class="menu-item-info">
+                        <h3 data-key="menu.items.hotteok.title">Hotteok</h3>
+                        <p data-key="menu.items.hotteok.desc">Panqueca doce recheada com açúcar mascavo</p>
+                        <span class="menu-item-time">⏱️ 30 min</span>
+                        <span class="menu-item-spice">-</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recipe Modal -->
+    <div id="recipeModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="recipeContent">
+                <!-- Recipe content will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>K-food Guide</h3>
+                    <p data-key="footer.description">Sua jornada pela autêntica culinária coreana</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4 data-key="footer.explore">Explorar</h4>
+                        <ul>
+                            <li><a href="culture.html" data-key="nav.culture">Cultura</a></li>
+                            <li><a href="menu.html" data-key="nav.menu">Menu</a></li>
+                            <li><a href="drinks.html" data-key="nav.drinks">Bebidas</a></li>
+                            <li><a href="blog.html" data-key="nav.blog">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4 data-key="footer.categories">Categorias</h4>
+                        <ul>
+                            <li><a href="#" data-key="categories.soups">Sopas</a></li>
+                            <li><a href="#" data-key="categories.banchan">Banchan</a></li>
+                            <li><a href="#" data-key="categories.grilled">Grelhados</a></li>
+                            <li><a href="#" data-key="categories.fermented">Fermentados</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 K-food Guide. <span data-key="footer.rights">Todos os direitos reservados.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/language.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
