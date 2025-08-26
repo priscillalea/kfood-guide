@@ -10,14 +10,14 @@
     },
     "hero": {
       "title": "Guia da Culinária Coreana",
-      "side": "teste",
-      "subtitle": "Uma jornada através dos sabores, tradições e cultura da Coreia através de sua rica gastronomia",
+      "side": "",
+      "subtitle": "A culinária é uma janela para a alma da Coreia. Descubra os sabores que carregam séculos de história, tradição e identidade.",
       "cta": "Explorar Receitas"
     },
     "medicine": {
       "title": "Na Coreia, comida é medicina",
-      "description": "A filosofia coreana vê a alimentação como uma forma de medicina preventiva. Cada cor, sabor e ingrediente tem um propósito específico para nutrir o corpo e a alma.",
-      "philosophy": "Os cinco elementos (오행) - madeira, fogo, terra, metal e água - são representados através das cores dos alimentos: verde, vermelho, amarelo, branco e preto.",
+      "description": "Para os coreanos, a saúde começa à mesa, onde cada prato é preparado para curar e nutrir o corpo. Essa abordagem milenar faz da comida coreana um elo inseparável entre sabor e bem-estar.",
+      "philosophy": "Para equilibrar as energias do corpo, os ingredientes são escolhidos com base nos cinco elementos: fogo, madeira, água, metal e terra. É a partir desses conceitos que a culinária coreana se torna um verdadeiro ato de cuidado.",
       "cta": "Saiba Mais"
     },
     "browse": {
@@ -182,14 +182,14 @@
       "about": "About"
     },
     "hero": {
-      "title": "Discover Authentic Korean Cuisine",
-      "subtitle": "A journey through Korea's flavors, traditions and culture through its rich gastronomy",
+      "title": "K-food Guide",
+      "subtitle": "Cuisine is a window into the soul of Korea. Discover flavours that carry centuries of history, tradition\n and identity.",
       "cta": "Explore Recipes"
     },
     "medicine": {
       "title": "In Korea, food is medicine",
-      "description": "Korean philosophy sees food as a form of preventive medicine. Each color, flavor and ingredient has a specific purpose to nourish body and soul.",
-      "philosophy": "The five elements (오행) - wood, fire, earth, metal and water - are represented through food colors: green, red, yellow, white and black.",
+      "description": "For Koreans, health begins at the table, where each dish is prepared to heal and nourish the body. This ancient approach makes Korean food an inseparable link between flavour and well-being.",
+      "philosophy": "To balance the body's energies, ingredients are chosen based on the five elements: fire, wood, water, metal, and earth. It is from these concepts that Korean cuisine becomes a true act of care.",
       "cta": "Learn More"
     },
     "browse": {
@@ -354,14 +354,14 @@
       "about": "소개"
     },
     "hero": {
-      "title": "정통 한국 요리를 발견하세요",
-      "subtitle": "한국의 풍부한 미식을 통해 맛, 전통, 문화를 여행하세요",
+      "title": "케이푸드 가이드",
+      "subtitle": "한식은 한국의 정신을 들여다보는 창입니다. 수세기의 \n역사와 전통, 정체성을 담은 맛을 만나보세요.",
       "cta": "레시피 탐색"
     },
     "medicine": {
       "title": "한국에서 음식은 약이다",
-      "description": "한국 철학은 음식을 예방 의학의 한 형태로 봅니다. 각 색깔, 맛, 재료는 몸과 마음을 영양분으로 공급하는 특별한 목적이 있습니다.",
-      "philosophy": "오행 - 목, 화, 토, 금, 수는 음식의 색깔을 통해 표현됩니다: 녹색, 빨간색, 노란색, 흰색, 검은색.",
+      "description": "한국인들에게 건강은 식탁에서 시작됩니다. 각 요리는 몸을 치유하고\n영양을 공급하기 위해 준비됩니다. 이 오랜 전통은 한국 음식을 맛과 웰빙을 잇는 불가분의 연결고리로 만듭니다.",
+      "philosophy": "몸의 에너지를 균형 있게 맞추기 위해 재료는 오행(火, 木, 水, 金, 土)을\n 바탕으로 선택됩니다. 이러한 개념을 바탕으로 한국 요리는 진정한 \n돌봄의 행위가 됩니다.",
       "cta": "더 알아보기"
     },
     "browse": {

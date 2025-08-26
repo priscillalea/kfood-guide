@@ -74,7 +74,8 @@ class LanguageManager {
       const key = element.getAttribute("data-key")
       const translation = this.getTranslation(key)
       if (translation) {
-        element.textContent = translation
+        element.innerHTML = translation.replace(/\n/g, "<br>")
+
       }
     })
   }

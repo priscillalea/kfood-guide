@@ -135,13 +135,13 @@ body {
 
   /* foto + overlay nas cores do tema */
   background-image:
-    linear-gradient(
+    linear-gradient(  
       135deg,
       rgba(255,153,153,0.68) 0%,
       rgba(153,204,255,0.45) 40%,
       rgba(255,255,255,0) 100%
     ),
-    url("landingpage.jpg");   /* AJUSTE o caminho conforme sua pasta */
+    url("public/landingpage.jpg");   /* AJUSTE o caminho conforme sua pasta */
   background-size: cover, cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -161,18 +161,20 @@ body {
   margin-bottom: var(--spacing-md);
   line-height: 1.2;
   color: #fff;
-  text-shadow: 0 2px 12px rgba(0,0,0,0.25);
+  text-shadow: 0 2px 12px rgba(0,0,0,0.35);
+ 
 }
 
 .hero-subtitle {
   font-size: 1.2rem;
   margin-bottom: var(--spacing-lg);
   color: #fff;
-  text-shadow: 0 1px 10px rgba(0,0,0,0.25);
+  text-shadow: 0 1px 10px rgba(0,0,0,0.35);
   opacity: 0.95;
+    max-width: 480px;
 }
 
-/* Botão usado no hero (seu HTML usa .btn.btn-primary) */
+/* Botão usado no hero (o HTML usa .btn.btn-primary) */
 a.btn.btn-primary {
   display: inline-block;
   text-decoration: none;
@@ -192,7 +194,6 @@ a.btn.btn-primary:hover {
   transform: translateY(-2px);
 }
 
-/* (Mantive sua .cta-button caso use em outras páginas) */
 .cta-button {
   background: var(--primary-yellow);
   color: var(--neutral-dark);
@@ -225,7 +226,13 @@ a.btn.btn-primary:hover {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: var(--spacing-xl);
-  align-items: center;
+  align-items: stretch; /* força alinhamento vertical */
+}
+
+.medicine-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* centraliza verticalmente o texto */
 }
 
 .medicine-text h2 {
@@ -242,6 +249,30 @@ a.btn.btn-primary:hover {
 
 .medicine-principles {
   margin-top: var(--spacing-lg);
+}
+
+/* Botão "Saiba Mais" */
+.medicine-text a {
+  display: flex;
+  width: 180px;
+  justify-content: center;
+  background: var(--primary-yellow);
+  color: var(--neutral-dark);
+  padding: var(--spacing-sm) var(--spacing-lg);
+  border-radius: var(--radius-md);
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: 1px solid rgba(0,0,0,0.1);
+  box-shadow: var(--shadow-md);
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform .2s ease, background .2s ease;
+}
+
+.medicine-text a:hover {
+  background: var(--primary-pink);
+  color: #fff;
+  transform: translateY(-2px);
 }
 
 .principle-item {
