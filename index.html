@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>K-food Guide - Home</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&family=Noto+Serif:wght@400;500;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&family=Noto+Serif:wght@400;500;600&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -15,14 +14,15 @@
             <div class="nav-brand">
                 <h1>K-food Guide</h1>
             </div>
-            <ul class="nav-menu">
-                <li><a href="index.html" class="nav-link active">Home</a></li>
-                <li><a href="culture.html" class="nav-link">Culture</a></li>
-                <li><a href="menu.html" class="nav-link">Menu</a></li>
-                <li><a href="drinks.html" class="nav-link">Drinks</a></li>
-                <li><a href="blog.html" class="nav-link">Blog</a></li>
-                <li><a href="about.html" class="nav-link">About</a></li>
-            </ul>
+    <ul class="nav-menu">
+      <li><a href="index.html"  class="nav-link active" data-key="nav.home">Home</a></li>
+      <li><a href="culture.html" class="nav-link" data-key="nav.culture">Culture</a></li>
+      <li><a href="menu.html"    class="nav-link" data-key="nav.menu">Menu</a></li>
+      <li><a href="drinks.html"  class="nav-link" data-key="nav.drinks">Drinks</a></li>
+      <li><a href="blog.html"    class="nav-link" data-key="nav.blog">Blog</a></li>
+      <li><a href="about.html"   class="nav-link" data-key="nav.about">About</a></li>
+    </ul>
+
             <div class="language-selector">
                 <select id="languageSelect">
                     <option value="pt">PT</option>
@@ -31,6 +31,7 @@
                 </select>
             </div>
             <div class="hamburger">
+                
                 <span></span>
                 <span></span>
                 <span></span>
@@ -63,12 +64,12 @@
                     <img src="/public/foodismedicine.jpg" alt="Korean bibimbap bowl" class="medicine-img">
                 </div>
                 <div class="medicine-text">
-                    <h2 class="medicine-title" data-key="medicine.title"></h2>
+                    <h2 class="medicine-title" data-key="medicine.title">A comida é medicina</h2>
                     <p class="medicine-description" data-key="medicine.description">
-                        
+                        Descubra como a culinária coreana valoriza ingredientes frescos e técnicas ancestrais para promover saúde e bem-estar.
                     </p>
                      <p class="medicine-philosophy" data-key="medicine.philosophy">
-                       
+                        Na Coreia, acredita-se que cada refeição pode nutrir o corpo e a mente, equilibrando sabores e benefícios nutricionais.
                     </p>
                     <a href="culture.html" class="btn btn-outline" data-key="medicine.cta">Saiba Mais</a>
                 </div>
@@ -81,35 +82,35 @@
         <div class="container">
             <div class="section-header">
                 <h2 data-key="browse.title">Navegue no Menu</h2>
-                <p data-key="browse.subtitle">Descubra a diversidade da culinária coreana</p>
             </div>
+
             <div class="category-grid">
                 <div class="category-card" data-category="soups">
                     <div class="category-icon">🍲</div>
-                    <h3 data-key="categories.soups">Sopas e Ensopados</h3>
-                    <p data-key="categories.soups.desc">Sopas quentes e reconfortantes coreanas perfeitas para qualquer estação</p>
-                    <a href="menu.html#soups" class="category-link">Ver Pratos</a>
+                    <h3 data-key="categories.soups.title"></h3>
+                    <p data-key="categories.soups.desc"></p>
+                    <a href="menu.html#soups" class="learn-more-btn" data-key="categories.view">Ver Pratos</a>
                 </div>
 
                 <div class="category-card" data-category="banchan">
                     <div class="category-icon">🥢</div>
-                    <h3 data-key="categories.banchan">Banchan</h3>
-                    <p data-key="categories.banchan.desc">Pratos acompanhantes tradicionais que complementam qualquer refeição</p>
-                    <a href="menu.html#banchan" class="category-link">Ver Pratos</a>
+                    <h3 data-key="categories.banchan.title"></h3>
+                    <p data-key="categories.banchan.desc"></p>
+                     <a href="menu.html#banchan" class="learn-more-btn" data-key="categories.view">Ver Pratos</a>
                 </div>
 
                 <div class="category-card" data-category="grilled">
                     <div class="category-icon">🔥</div>
-                    <h3 data-key="categories.grilled">Grelhados</h3>
-                    <p data-key="categories.grilled.desc">Carnes e vegetais grelhados com técnicas tradicionais coreanas</p>
-                    <a href="menu.html#grilled" class="category-link">Ver Pratos</a>
+                    <h3 data-key="categories.grilled.title"></h3>
+                    <p data-key="categories.grilled.desc"></p>
+                     <a href="menu.html#grilled" class="learn-more-btn" data-key="categories.view">Ver Pratos</a>
                 </div>
 
                 <div class="category-card" data-category="fermented">
                     <div class="category-icon">🥬</div>
-                    <h3 data-key="categories.fermented">Fermentados</h3>
-                    <p data-key="categories.fermented.desc">Alimentos fermentados ricos em probióticos e sabores únicos</p>
-                    <a href="menu.html#fermented" class="category-link">Ver Pratos</a>
+                    <h3 data-key="categories.fermented.title"></h3>
+                    <p data-key="categories.fermented.desc"></p>
+                    <a href="menu.html#categories" class="learn-more-btn " data-key="categories.view">Ver Pratos</a>
                 </div>
             </div>
         </div>

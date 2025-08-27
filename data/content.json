@@ -24,15 +24,27 @@
       "title": "Explore o Menu"
     },
     "categories": {
-      "soups": "Sopas e Ensopados",
-      "soups.desc": "Guk, Tang, Jjigae e Jeongol - sopas nutritivas para todas as ocasiões",
-      "banchan": "Banchan",
-      "banchan.desc": "Acompanhamentos tradicionais que completam qualquer refeição coreana",
-      "grilled": "Grelhados",
-      "grilled.desc": "Bulgogi, Galbi e outros pratos grelhados cheios de sabor",
-      "cold": "Pratos Frios",
-      "cold.desc": "Naengmyeon, Mulhoe e outras delícias refrescantes",
-      "fermented": "Fermentados"
+      "soups": {
+        "title": "Sopas e Ensopados",
+        "desc": "Sopas nutritivas para todas as ocasiões"
+      },
+      "banchan": {
+        "title": "Banchan",
+        "desc": "Acompanhamentos que completam qualquer refeição coreana"
+      },
+      "grilled": {
+        "title": "Grelhados",
+        "desc": "Bulgogi, Galbi e outros pratos grelhados"
+      },
+      "cold": {
+        "title": "Pratos Frios",
+        "desc": "Naengmyeon, Mulhoe e outras delícias refrescantes"
+      },
+      "fermented": {
+        "title": "Fermentados",
+        "desc": "Alimentos fermentados ricos em probióticos"
+      },
+      "view": "Ver Pratos"
     },
     "recipes": {
       "title": "Nossas Receitas",
@@ -183,7 +195,7 @@
     },
     "hero": {
       "title": "K-food Guide",
-      "subtitle": "Cuisine is a window into the soul of Korea. Discover flavours that carry centuries of history, tradition\n and identity.",
+      "subtitle": "Cuisine is a window into the soul of Korea. \nDiscover flavours that carry centuries of\n history, tradition and identity.",
       "cta": "Explore Recipes"
     },
     "medicine": {
@@ -196,15 +208,27 @@
       "title": "Browse the Menu"
     },
     "categories": {
-      "soups": "Soups & Stews",
-      "soups.desc": "Guk, Tang, Jjigae and Jeongol - nutritious soups for all occasions",
-      "banchan": "Banchan",
-      "banchan.desc": "Traditional side dishes that complete any Korean meal",
-      "grilled": "Grilled",
-      "grilled.desc": "Bulgogi, Galbi and other flavorful grilled dishes",
-      "cold": "Cold Dishes",
-      "cold.desc": "Naengmyeon, Mulhoe and other refreshing delights",
-      "fermented": "Fermented"
+      "soups": {
+        "title": "Soups and stews",
+        "desc": "Nutritious soups for all occasions"
+      },
+      "banchan": {
+        "title": "Banchan",
+        "desc": "Side dishes that complement any Korean meal"
+      },
+      "grilled": {
+        "title": "Grilled",
+        "desc": "Bulgogi, Galbi and other grilled dishes"
+      },
+      "cold": {
+        "title": "Cold dishes",
+        "desc": "Naengmyeon, Mulhoe and other refreshing delicacies"
+      },
+      "fermented": {
+        "title": "Fermented",
+        "desc": "Fermented foods rich in probiotics"
+      },
+      "view": "View Dishes"
     },
     "recipes": {
       "title": "Our Recipes",
@@ -368,152 +392,157 @@
       "title": "메뉴 둘러보기"
     },
     "categories": {
-      "soups": "국물 요리",
-      "soups.desc": "국, 탕, 찌개, 전골 - 모든 경우에 맞는 영양가 있는 국물 요리",
-      "banchan": "반찬",
-      "banchan.desc": "한국 식사를 완성하는 전통 밑반찬",
-      "grilled": "구이",
-      "grilled.desc": "불고기, 갈비 및 기타 맛있는 구이 요리",
-      "cold": "냉요리",
-      "cold.desc": "냉면, 물회 및 기타 시원한 별미",
-      "fermented": "발효 음식"
-    },
-    "recipes": {
-      "title": "우리의 레시피",
-      "viewAll": "모두 보기",
-      "kimchi": {
-        "title": "전통 김치",
-        "desc": "한국의 가장 상징적인 발효 반찬"
+      "soups": {
+        "title": "국과 찌개",
+        "desc": "모든 경우에 영양가 있는 국과 찌개"
       },
-      "bulgogi": {
-        "title": "불고기",
-        "desc": "달콤하고 짭짤한 맛의 양념 구이 소고기"
+      "banchan": { "title": "반찬", "desc": "한국 식사를 보완하는 반찬들" },
+      "grilled": {
+        "title": "구운 요리",
+        "desc": "불고기, 갈비 및 기타 구이 요리"
       },
-      "bibimbap": {
-        "title": "비빔밥",
-        "desc": "야채와 고추장을 넣은 비빔밥"
-      }
-    },
-    "culture": {
-      "hero": {
-        "title": "한국 음식 문화",
-        "subtitle": "각 한국 요리 뒤에 숨겨진 철학, 전통, 깊은 의미를 발견하세요"
-      },
-      "medicine": {
-        "title": "음식은 약이다 (Food is Medicine)",
-        "subtitle": "예방 의학으로서의 음식에 대한 한국 철학",
-        "description": "한국에서는 \"음식은 약이다\"라고 믿어집니다. 이 고대 철학은 동양 의학 원칙과 각 재료가 특정 치유 특성을 가지고 있다는 믿음에 기반합니다."
-      },
-      "colors": {
-        "title": "한국 요리에서 색깔의 철학",
-        "subtitle": "각 색깔은 특별한 의미와 영양 특성을 가집니다"
-      },
-      "regional": {
-        "title": "한국 요리의 지역적 차이",
-        "subtitle": "각 지방은 고유한 요리 특색과 전통을 가지고 있습니다"
-      },
-      "utensils": {
-        "title": "전통 조리도구와 재료",
-        "subtitle": "재료 선택은 맛과 식사 경험에 영향을 줍니다"
-      },
-      "influences": {
-        "title": "한국의 요리적 영향",
-        "subtitle": "다양한 철학과 문화가 한국 요리를 어떻게 형성했는지"
-      },
-      "etiquette": {
-        "title": "한국 식탁 예절 규칙",
-        "subtitle": "전통을 존중하고 한국 문화에 대한 감사를 표현하세요"
-      }
-    },
-    "drinks": {
-      "hero": {
-        "title": "전통 한국 음료",
-        "subtitle": "한국 음료의 세계를 발견하세요: 약용 차부터 전통 와인까지"
-      },
-      "nonAlcoholic": {
-        "title": "무알콜 음료 (비알콜 음료)",
-        "subtitle": "전통 차, 천연 주스 및 상쾌한 음료"
-      },
+      "cold": { "title": "찬 요리", "desc": "냉면, 물회 및 기타 시원한 진미" },
       "fermented": {
-        "title": "발효 및 프로바이오틱 음료 (발효 음료)",
-        "subtitle": "프로바이오틱과 영양소가 풍부한 전통 음료"
+        "title": "발효 식품",
+        "desc": "프로바이오틱스가 풍부한 발효 식품"
       },
-      "alcoholic": {
-        "title": "한국 알콜 음료 (한국 술)",
-        "subtitle": "전통 와인, 증류주 및 수공예 음료"
-      },
-      "modern": {
-        "title": "현대 음료 (현대 음료)",
-        "subtitle": "한국 전통과 현대적 영향의 융합"
-      },
-      "culture": {
-        "title": "한국의 음주 문화 (한국의 술 문화)",
-        "subtitle": "음료 소비와 관련된 전통, 예절 및 의식"
-      }
-    },
-    "blog": {
-      "hero": {
-        "title": "한국 음식 레시피 블로그",
-        "subtitle": "한국을 당신의 부엌으로 가져오는 빠르고 쉬운 현대적 레시피"
-      },
-      "featured": {
-        "title": "추천 레시피",
-        "subtitle": "가장 인기 있고 사랑받는 레시피"
-      },
-      "newsletter": {
-        "title": "새로운 레시피 받기",
-        "subtitle": "최고의 한국 레시피를 이메일로 직접 받으려면 구독하세요",
-        "submit": "구독하기"
-      }
-    },
-    "about": {
-      "hero": {
-        "title": "K-food Guide 소개",
-        "subtitle": "이 프로젝트 뒤에 숨겨진 이야기와 한국 요리에 대한 우리의 열정을 알아보세요"
-      },
-      "story": {
-        "title": "우리의 이야기",
-        "intro": "K-food Guide는 한국 요리에 대한 깊은 열정과 이 풍부한 요리 전통을 세계와 공유하고자 하는 열망에서 태어났습니다.",
-        "background": "모든 것은 한국 여행 중에 시작되었습니다. 거기서 저는 진정한 현지 요리를 경험할 기회를 가졌습니다. 첫 번째 김치부터 마지막 고추장까지, 각 맛은 전통, 혁신, 음식에 대한 사랑의 이야기를 들려주었습니다.",
-        "mission": "돌아온 후, 저는 브라질에서 한국 요리에 대한 지식의 격차가 있다는 것을 깨달았습니다. 많은 사람들이 기본적인 것만 알고 있어서, 놀랍도록 풍부하고 다양한 요리의 우주를 탐험할 기회를 놓치고 있었습니다."
-      },
-      "mission": {
-        "title": "우리의 미션",
-        "subtitle": "우리를 매일 동기부여하고 인도하는 것"
-      },
-      "values": {
-        "title": "우리의 가치",
-        "subtitle": "우리 작업을 인도하는 원칙들"
-      },
-      "team": {
-        "title": "우리의 팀",
-        "subtitle": "K-food Guide 뒤에 있는 사람들을 만나보세요"
-      },
-      "contact": {
-        "title": "연락하기",
-        "subtitle": "말하고 싶은 것이 있나요? 여러분의 의견을 듣고 싶습니다!",
-        "info": {
-          "title": "연락처 정보"
+      "recipes": {
+        "title": "우리의 레시피",
+        "viewAll": "모두 보기",
+        "kimchi": {
+          "title": "전통 김치",
+          "desc": "한국의 가장 상징적인 발효 반찬"
         },
-        "form": {
-          "title": "메시지 보내기",
-          "name": "이름",
-          "email": "이메일",
-          "subject": "제목",
-          "message": "메시지",
-          "submit": "메시지 보내기"
+        "bulgogi": {
+          "title": "불고기",
+          "desc": "달콤하고 짭짤한 맛의 양념 구이 소고기"
+        },
+        "bibimbap": {
+          "title": "비빔밥",
+          "desc": "야채와 고추장을 넣은 비빔밥"
         }
       },
-      "faq": {
-        "title": "자주 묻는 질문",
-        "subtitle": "가장 일반적인 질문에 대한 답변"
+      "culture": {
+        "hero": {
+          "title": "한국 음식 문화",
+          "subtitle": "각 한국 요리 뒤에 숨겨진 철학, 전통, 깊은 의미를 발견하세요"
+        },
+        "medicine": {
+          "title": "음식은 약이다 (Food is Medicine)",
+          "subtitle": "예방 의학으로서의 음식에 대한 한국 철학",
+          "description": "한국에서는 \"음식은 약이다\"라고 믿어집니다. 이 고대 철학은 동양 의학 원칙과 각 재료가 특정 치유 특성을 가지고 있다는 믿음에 기반합니다."
+        },
+        "colors": {
+          "title": "한국 요리에서 색깔의 철학",
+          "subtitle": "각 색깔은 특별한 의미와 영양 특성을 가집니다"
+        },
+        "regional": {
+          "title": "한국 요리의 지역적 차이",
+          "subtitle": "각 지방은 고유한 요리 특색과 전통을 가지고 있습니다"
+        },
+        "utensils": {
+          "title": "전통 조리도구와 재료",
+          "subtitle": "재료 선택은 맛과 식사 경험에 영향을 줍니다"
+        },
+        "influences": {
+          "title": "한국의 요리적 영향",
+          "subtitle": "다양한 철학과 문화가 한국 요리를 어떻게 형성했는지"
+        },
+        "etiquette": {
+          "title": "한국 식탁 예절 규칙",
+          "subtitle": "전통을 존중하고 한국 문화에 대한 감사를 표현하세요"
+        }
+      },
+      "drinks": {
+        "hero": {
+          "title": "전통 한국 음료",
+          "subtitle": "한국 음료의 세계를 발견하세요: 약용 차부터 전통 와인까지"
+        },
+        "nonAlcoholic": {
+          "title": "무알콜 음료 (비알콜 음료)",
+          "subtitle": "전통 차, 천연 주스 및 상쾌한 음료"
+        },
+        "fermented": {
+          "title": "발효 및 프로바이오틱 음료 (발효 음료)",
+          "subtitle": "프로바이오틱과 영양소가 풍부한 전통 음료"
+        },
+        "alcoholic": {
+          "title": "한국 알콜 음료 (한국 술)",
+          "subtitle": "전통 와인, 증류주 및 수공예 음료"
+        },
+        "modern": {
+          "title": "현대 음료 (현대 음료)",
+          "subtitle": "한국 전통과 현대적 영향의 융합"
+        },
+        "culture": {
+          "title": "한국의 음주 문화 (한국의 술 문화)",
+          "subtitle": "음료 소비와 관련된 전통, 예절 및 의식"
+        }
+      },
+      "blog": {
+        "hero": {
+          "title": "한국 음식 레시피 블로그",
+          "subtitle": "한국을 당신의 부엌으로 가져오는 빠르고 쉬운 현대적 레시피"
+        },
+        "featured": {
+          "title": "추천 레시피",
+          "subtitle": "가장 인기 있고 사랑받는 레시피"
+        },
+        "newsletter": {
+          "title": "새로운 레시피 받기",
+          "subtitle": "최고의 한국 레시피를 이메일로 직접 받으려면 구독하세요",
+          "submit": "구독하기"
+        }
+      },
+      "about": {
+        "hero": {
+          "title": "K-food Guide 소개",
+          "subtitle": "이 프로젝트 뒤에 숨겨진 이야기와 한국 요리에 대한 우리의 열정을 알아보세요"
+        },
+        "story": {
+          "title": "우리의 이야기",
+          "intro": "K-food Guide는 한국 요리에 대한 깊은 열정과 이 풍부한 요리 전통을 세계와 공유하고자 하는 열망에서 태어났습니다.",
+          "background": "모든 것은 한국 여행 중에 시작되었습니다. 거기서 저는 진정한 현지 요리를 경험할 기회를 가졌습니다. 첫 번째 김치부터 마지막 고추장까지, 각 맛은 전통, 혁신, 음식에 대한 사랑의 이야기를 들려주었습니다.",
+          "mission": "돌아온 후, 저는 브라질에서 한국 요리에 대한 지식의 격차가 있다는 것을 깨달았습니다. 많은 사람들이 기본적인 것만 알고 있어서, 놀랍도록 풍부하고 다양한 요리의 우주를 탐험할 기회를 놓치고 있었습니다."
+        },
+        "mission": {
+          "title": "우리의 미션",
+          "subtitle": "우리를 매일 동기부여하고 인도하는 것"
+        },
+        "values": {
+          "title": "우리의 가치",
+          "subtitle": "우리 작업을 인도하는 원칙들"
+        },
+        "team": {
+          "title": "우리의 팀",
+          "subtitle": "K-food Guide 뒤에 있는 사람들을 만나보세요"
+        },
+        "contact": {
+          "title": "연락하기",
+          "subtitle": "말하고 싶은 것이 있나요? 여러분의 의견을 듣고 싶습니다!",
+          "info": {
+            "title": "연락처 정보"
+          },
+          "form": {
+            "title": "메시지 보내기",
+            "name": "이름",
+            "email": "이메일",
+            "subject": "제목",
+            "message": "메시지",
+            "submit": "메시지 보내기"
+          }
+        },
+        "faq": {
+          "title": "자주 묻는 질문",
+          "subtitle": "가장 일반적인 질문에 대한 답변"
+        }
+      },
+      "footer": {
+        "description": "정통 한국 요리를 통한 여행",
+        "explore": "탐색",
+        "categories": "카테고리",
+        "rights": "모든 권리 보유."
       }
-    },
-    "footer": {
-      "description": "정통 한국 요리를 통한 여행",
-      "explore": "탐색",
-      "categories": "카테고리",
-      "rights": "모든 권리 보유."
     }
   }
 }
